@@ -1,0 +1,23 @@
+.clearfix::after,
+.clearfix::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+body {
+  min-width: 1332px;
+  font: 12px/1.5 "Microsoft YaHei", "Heiti SC", "tahoma", "arial", "Hiragino Sans GB", "\5B8B\4F53", "sans-serif";
+  color: #666;
+  background-color: #f4f4f4;
+}
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+.w a {
+  text-decoration: none;
+}
+.w li {
+  list-style: none;
+}
+/*# sourceMappingURL=./basic.css.map */

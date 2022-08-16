@@ -1,0 +1,1120 @@
+#J_promotional-top {
+  height: 80px;
+}
+#J_promotional-top a {
+  height: 100%;
+  display: block;
+  background-color: #fff78e;
+}
+#J_promotional-top a .adv_container {
+  height: 100%;
+  background: url('../jingdong-img/img_top/logo_top.jpg') no-repeat;
+  position: relative;
+}
+#J_promotional-top a .adv_container i {
+  position: absolute;
+  right: 6px;
+  top: 2px;
+  font-size: 20px;
+  background-color: #999;
+  height: 25px;
+  width: 25px;
+  opacity: 70%;
+  line-height: 25px;
+  text-align: center;
+}
+#shortcut .shortcutinfo {
+  height: 30px;
+}
+#shortcut .shortcutinfo .city-user {
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  float: left;
+}
+#shortcut .shortcutinfo .city-user .city-info {
+  position: relative;
+  z-index: 21;
+}
+#shortcut .shortcutinfo .city-user .city-info a {
+  position: relative;
+  overflow: hidden;
+  padding: 0 10px;
+  color: #999;
+  display: block;
+  z-index: 99;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+#shortcut .shortcutinfo .city-user .city-info a i {
+  margin-right: 4px;
+}
+#shortcut .shortcutinfo .city-user .city-info a i img {
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  display: none;
+  top: 30px;
+  position: absolute;
+  z-index: 98;
+  overflow: hidden;
+  padding: 20px;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .item {
+  float: left;
+  padding: 2px 0;
+  width: 60px;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .item a {
+  float: left;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .item a:hover {
+  background-color: #f4f4f4;
+  color: #e33333;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter1 {
+  margin-bottom: 80px;
+  display: block;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter1 .ul_list .areamini_inter_item {
+  float: left;
+  width: 120px;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter1 .ul_list .areamini_inter_item a {
+  display: block;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter1 .ul_list .areamini_inter_item a:hover {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item {
+  display: block;
+  float: left;
+  width: 150px;
+  position: relative;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item:hover a {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item .global {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  background: url('../jingdong-img/img_top/county.png') no-repeat;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item .russia {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  background: url('../jingdong-img/img_top/county.png') no-repeat;
+  background-position: -20px 0;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item .indonesia {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  background: url('../jingdong-img/img_top/county.png') no-repeat;
+  background-position: -40px 0;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item .spain {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  background: url('../jingdong-img/img_top/county.png') no-repeat;
+  background-position: 0 -15px;
+}
+#shortcut .shortcutinfo .city-user .city-info .hide-city .areamini_inter2 .areamini_inter_item .thailand {
+  float: left;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  background: url('../jingdong-img/img_top/county.png') no-repeat;
+  background-position: -20px -15px;
+}
+#shortcut .shortcutinfo .city-user .city-info:hover .dt {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+#shortcut .shortcutinfo .city-user .city-info:hover .hide-city {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list {
+  float: right;
+  line-height: 30px;
+}
+#shortcut .shortcutinfo .lader-list li {
+  float: left;
+}
+#shortcut .shortcutinfo .lader-list li.shortcut_btn a {
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li.fore1 {
+  margin-right: 8px;
+}
+#shortcut .shortcutinfo .lader-list li .dt {
+  padding: 0 7px;
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li .dt i {
+  right: 5px;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+}
+#shortcut .shortcutinfo .lader-list li a.high_light {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li:hover a {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 {
+  position: relative;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .dt {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: none;
+  z-index: 999;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist {
+  padding: 20px 0 15px 20px;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  top: 30px;
+  z-index: 998;
+  position: absolute;
+  display: none;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist a {
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore {
+  line-height: 28px;
+  width: 280px;
+  padding-right: 2px;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore .fore1 {
+  float: left;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore .fore1 .item {
+  float: left;
+  width: 138px;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore .fore2 {
+  float: left;
+  overflow: hidden;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore .fore2 .item {
+  float: left;
+  width: 138px;
+}
+#shortcut .shortcutinfo .lader-list li.fore3 .myjdlist .fore a:hover {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore3:hover .dt {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+}
+#shortcut .shortcutinfo .lader-list li.fore3:hover .myjdlist {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 {
+  position: relative;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .dt {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: none;
+  z-index: 999;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company {
+  padding: 20px 0 15px 20px;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  top: 30px;
+  z-index: 998;
+  position: absolute;
+  display: none;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company .company_container {
+  line-height: 28px;
+  width: 140px;
+  overflow: hidden;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company .company_container a {
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company .company_container .ul_list {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company .company_container .ul_list li {
+  float: left;
+  max-width: 78px;
+  overflow: hidden;
+  height: 24px;
+  min-width: 38px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 11px;
+}
+#shortcut .shortcutinfo .lader-list li.fore5 .company .company_container a:hover {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore5:hover .dt {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+}
+#shortcut .shortcutinfo .lader-list li.fore5:hover .company {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 {
+  position: relative;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .dt {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: none;
+  z-index: 999;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service {
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  top: 30px;
+  z-index: 998;
+  position: absolute;
+  display: none;
+  padding: 20px 0 15px 20px;
+  left: -112px;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service .user_service_info {
+  width: 170px;
+  overflow: hidden;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service .user_service_info .user_service_info_first {
+  overflow: hidden;
+  line-height: 28px;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service .user_service_info li {
+  padding-left: 15px;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service .user_service_info h2 {
+  color: #666;
+  font-weight: 700;
+  padding-left: 15px;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service a {
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li.fore6 .user_service a:hover {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore6:hover .dt {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+}
+#shortcut .shortcutinfo .lader-list li.fore6:hover .user_service {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 {
+  position: relative;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .dt {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: none;
+  z-index: 999;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead {
+  width: 1190px;
+  right: -75px;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  top: 30px;
+  z-index: 998;
+  position: absolute;
+  display: none;
+  padding: 15px 0;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead a {
+  color: #999;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead a:hover {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead h2 {
+  font-weight: 700;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore1 {
+  overflow: hidden;
+  float: left;
+  padding-left: 20px;
+  width: 340px;
+  border-right: 1px solid #ccc;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore1 li {
+  width: 85px;
+  float: left;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore2 {
+  overflow: hidden;
+  float: left;
+  padding-left: 20px;
+  width: 255px;
+  border-right: 1px solid #ccc;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore2 li {
+  width: 85px;
+  float: left;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore3 {
+  overflow: hidden;
+  float: left;
+  padding-left: 20px;
+  width: 255px;
+  border-right: 1px solid #ccc;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore3 li {
+  width: 85px;
+  float: left;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore4 {
+  width: 255px;
+  overflow: hidden;
+  float: left;
+  padding-left: 20px;
+}
+#shortcut .shortcutinfo .lader-list li.fore7 .web-lead .fore4 li {
+  width: 85px;
+  float: left;
+}
+#shortcut .shortcutinfo .lader-list li.fore7:hover .dt {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+}
+#shortcut .shortcutinfo .lader-list li.fore7:hover .web-lead {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 {
+  position: relative;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .dt {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: none;
+  z-index: 999;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_static {
+  position: absolute;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 76px;
+  height: 76px;
+  z-index: 97;
+  top: 35px;
+  background-color: #fff;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_static .mobile_static_qrcode {
+  width: 66px;
+  height: 66px;
+  background: url('../jingdong-img/img_top/downloadCode.png') no-repeat 60%;
+  margin: 5px auto;
+  line-height: 30px;
+  background-color: #f6f6f6;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_static::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border: 5px solid transparent;
+  border-top: none;
+  top: -5px;
+  left: 30.8px;
+  border-bottom: 5px solid #FFF;
+  width: 0;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide {
+  width: 190px;
+  padding: 15px 0;
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  top: 30px;
+  z-index: 998;
+  position: absolute;
+  display: none;
+  right: -12px;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide::before {
+  content: '';
+  display: block;
+  width: 0;
+  position: absolute;
+  border: 10px solid transparent;
+  border-top: none;
+  border-bottom: 10px solid #fff;
+  top: -10px;
+  right: 33px;
+  z-index: 99;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item {
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  padding: 15px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_img {
+  width: 74px;
+  height: 74px;
+  float: left;
+  overflow: hidden;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_img img {
+  width: 80%;
+  height: 80%;
+  margin: 8px 8px;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text {
+  overflow: hidden;
+  float: left;
+  line-height: 19px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text h5 {
+  font-size: 12px;
+  color: #666;
+  font-weight: 700;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text h5 a {
+  color: #666;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text .p_text {
+  color: #e33333;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text .img_download {
+  width: 94px;
+  height: 25px;
+  overflow: hidden;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text .img_download a {
+  display: block;
+  float: left;
+  margin-right: 2px;
+  width: 25px;
+  height: 100%;
+  text-indent: -999px;
+  background-image: url('../jingdong-img/img_top/sprite_mobile@1x.png');
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text .img_download .img_2 {
+  background-position: 0 -25px;
+}
+#shortcut .shortcutinfo .lader-list li.fore8 .mob_hide .item .item_text .img_download .img_3 {
+  background-position: 0 -50px;
+}
+#shortcut .shortcutinfo .lader-list li.fore8:hover .mob_hide {
+  display: block;
+}
+#shortcut .shortcutinfo .lader-list .spacer {
+  overflow: hidden;
+  margin: 11px 5px 0;
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+}
+#logo_search {
+  background-color: #fff;
+}
+#logo_search #logo_search_container {
+  position: relative;
+  height: 140px;
+}
+#logo_search #logo_search_container .logo_container {
+  height: 120px;
+  width: 190px;
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+}
+#logo_search #logo_search_container .logo_container .logo {
+  margin: 0 auto;
+  width: 134px;
+  height: 100%;
+}
+#logo_search #logo_search_container .logo_container .logo a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../jingdong-img/img_top/sprite.png");
+  background-position: -20px 0;
+}
+#logo_search #logo_search_container .logo_container .logo a:hover {
+  background: url("../jingdong-img/img_top/logo.gif");
+  background-position: -28px -22px;
+}
+#logo_search #logo_search_container .search_container {
+  height: 60px;
+  position: relative;
+}
+#logo_search #logo_search_container .search_container .search {
+  width: 546px;
+  position: absolute;
+  left: 260px;
+  top: 25px;
+}
+#logo_search #logo_search_container .search_container .search .search-input {
+  float: left;
+  width: 450px;
+  height: 30px;
+  line-height: 26px;
+  border: 2px solid #e33333;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#logo_search #logo_search_container .search_container .search span {
+  position: absolute;
+  z-index: 20;
+  top: 10px;
+  right: 80px;
+  font-size: 16px;
+}
+#logo_search #logo_search_container .search_container .search .btn {
+  width: 62px;
+  height: 36px;
+  float: left;
+  background-color: #e33333;
+  position: relative;
+}
+#logo_search #logo_search_container .search_container .search .btn .search-btn {
+  line-height: 26px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #e33333;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#logo_search #logo_search_container .search_container .Buy_card {
+  border: 1px solid #999;
+  position: absolute;
+  right: 234px;
+  top: 25px;
+}
+#logo_search #logo_search_container .search_container .Buy_card .car_container {
+  width: 130px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  background-color: #fff;
+}
+#logo_search #logo_search_container .search_container .Buy_card .car_container .car {
+  font-size: 16px;
+  color: #e33333;
+  padding-right: 10px;
+}
+#logo_search #logo_search_container .search_container .Buy_card .car_container a {
+  color: #e33333;
+  font-weight: 700;
+}
+#logo_search #logo_search_container .search_container .Buy_card .car_container .hide_car {
+  position: absolute;
+  width: 308px;
+  height: 70px;
+  border: 1px solid #e33333;
+  right: -1px;
+  z-index: 98;
+  display: none;
+  background-color: #fff;
+  background-size: contain;
+}
+#logo_search #logo_search_container .search_container .Buy_card .car_container .hide_car img {
+  position: absolute;
+  top: 20px;
+  right: 140px;
+}
+#logo_search #logo_search_container .search_container .Buy_card:hover {
+  border-color: #e33333;
+}
+#logo_search #logo_search_container .search_container .Buy_card:hover .hide_car {
+  display: block;
+}
+#logo_search #logo_search_container .search_container .center_lead {
+  width: 546px;
+  height: 20px;
+  position: absolute;
+  background-color: #fff;
+  top: 60px;
+  left: 260px;
+}
+#logo_search #logo_search_container .search_container .center_lead .lead_list li {
+  margin-right: 10px;
+  float: left;
+}
+#logo_search #logo_search_container .search_container .center_lead .lead_list li a {
+  color: #999;
+}
+#logo_search #logo_search_container .search_container .center_lead .lead_list li:hover a {
+  color: #e33333;
+}
+#logo_search #logo_search_container .search_container .center_lead .lead_list li:first-child a {
+  color: #e33333;
+}
+#logo_search #logo_search_container .search_container .bottom_lead {
+  position: absolute;
+  padding-top: 20px;
+  top: 80px;
+  left: 200px;
+  height: 40px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list {
+  list-style: none;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li {
+  float: left;
+  margin: 0 11px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li a {
+  color: #000;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li:hover a {
+  color: #c81623;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li:nth-child(1) {
+  font-weight: 700;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li:nth-child(1) a {
+  color: #e33333;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li:nth-child(2) {
+  font-weight: 700;
+}
+#logo_search #logo_search_container .search_container .bottom_lead .lead_list li:nth-child(2) a {
+  color: #e33333;
+}
+#center-menu-container {
+  position: relative;
+}
+#center-menu-container .center-menu {
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+#center-menu-container .center-menu .left-menu {
+  height: 480px;
+  width: 190px;
+  position: absolute;
+  margin-right: 10px;
+}
+#center-menu-container .center-menu .left-menu .left-menu-info {
+  padding: 10px 0;
+  height: 450px;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#center-menu-container .center-menu .left-menu .left-menu-info .left-list {
+  list-style: none;
+}
+#center-menu-container .center-menu .left-menu .left-menu-info .left-list li {
+  padding-left: 18px;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+}
+#center-menu-container .center-menu .left-menu .left-menu-info .left-list li a {
+  font-size: 14px;
+  color: #000;
+}
+#center-menu-container .center-menu .left-menu .left-menu-info .left-list li a:hover {
+  color: #c81623;
+}
+#center-menu-container .center-menu .menu-cent {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 200px;
+  width: 790px;
+  margin-right: 10px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info {
+  padding-top: 10px;
+  height: 100%;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info {
+  background-color: #fff;
+  width: 590px;
+  height: 100%;
+  margin-right: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .prve {
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+  display: none;
+  border-radius: 50%;
+  background-color: #999;
+  opacity: 70%;
+  transition: 0.2s all linear;
+  left: -23px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .prve a {
+  display: block;
+  color: #333;
+  position: relative;
+  left: 4px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .prve:hover {
+  background-color: #333;
+  opacity: 70%;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .prve:hover a {
+  color: #000;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .next {
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+  display: none;
+  border-radius: 50%;
+  background-color: #999;
+  opacity: 70%;
+  transition: 0.2s all linear;
+  right: -23px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .next a {
+  position: relative;
+  left: -4px;
+  display: block;
+  color: #333;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .next:hover {
+  background-color: #333;
+  opacity: 70%;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .next:hover a {
+  color: #000;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info:hover .prve,
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info:hover .next {
+  display: block;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .img-list-container {
+  height: 100%;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .img-list-container img {
+  width: 100%;
+  height: 100%;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .lead-list {
+  position: absolute;
+  height: 15px;
+  z-index: 2;
+  bottom: 40px;
+  left: 230px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .lead-list a {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  margin-right: 6px;
+  box-sizing: content-box;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .lead-list a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-info .lead-list a.active {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-right {
+  width: 190px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  left: 600px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-right .img-list {
+  width: 190px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+#center-menu-container .center-menu .menu-cent .menu-cent-info .img-list-right .img-list img {
+  height: 100%;
+  width: 100%;
+}
+#center-menu-container .center-menu .right-menu {
+  width: 190px;
+  height: 480px;
+  overflow: hidden;
+  float: right;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info {
+  padding: 10px 0;
+  margin-top: 10px;
+  height: 100%;
+  background-color: #fff;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top {
+  position: relative;
+  top: 5px;
+  overflow: hidden;
+  border-bottom: 1px #ccc solid;
+  width: 190px;
+  height: 102px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 15px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-img a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-img a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-show {
+  position: absolute;
+  left: 70px;
+  top: 4px;
+  line-height: 17px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-show a {
+  color: #000;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user-show a:hover {
+  color: #c81623;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit {
+  position: absolute;
+  top: 62px;
+  left: 15px;
+  width: 170px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .new_gift {
+  float: left;
+  background-color: #e33333;
+  border-radius: 13px;
+  margin: 0 5px;
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  transition: 0.6s all;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .new_gift a {
+  color: #fff;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .new_gift:hover {
+  background-color: #c81623;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .plus {
+  float: left;
+  background-color: #363634;
+  border-radius: 13px;
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  transition: color, background-color, 0.6s;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .plus a {
+  color: #e5d790;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .plus:hover {
+  background-color: #c81623;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-top .user .user_profit .plus:hover a {
+  color: #fff;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle {
+  position: relative;
+  overflow: hidden;
+  width: 190px;
+  height: 129px;
+  border-bottom: 1px solid #ccc;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .head-title {
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 8px;
+  position: relative;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .head-title h5 {
+  position: absolute;
+  margin-left: 15px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .head-title a {
+  position: absolute;
+  right: 15px;
+  color: #999;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .head-title a:hover {
+  color: #e33333;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .info-list {
+  position: relative;
+  overflow: hidden;
+  height: 88px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .info-list li {
+  width: 160px;
+  height: 16px;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-bottom: 6px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .info-list li a {
+  display: block;
+  text-overflow: ellipsis;
+  height: 16px;
+  color: #666;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .info-list li a:hover {
+  color: #c81623;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-middle .right-menu-middle-info .info-list li a span {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  height: 16px;
+  width: 35px;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: 0;
+  color: #e1251b;
+  background-color: rgba(225, 37, 27, 0.08);
+  margin-right: 6px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom {
+  width: 190px;
+  height: 240px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info {
+  height: 200px;
+  background-color: #fff;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  margin-top: 5px;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list {
+  list-style: none;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li {
+  position: relative;
+  float: left;
+  width: 63px;
+  height: 55px;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li a {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #000;
+  transition: 0.2s all linear;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li a i {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li a i img {
+  width: 100%;
+  height: 100%;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li a span {
+  width: 14px;
+  height: 14px;
+  top: 0;
+}
+#center-menu-container .center-menu .right-menu .right-menu-info .right-menu-bottom .right-menu-bottom-info .sign-list li a:hover {
+  color: #c81623;
+}
+/*# sourceMappingURL=./index.css.map */

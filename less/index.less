@@ -1,0 +1,1387 @@
+//1.广告
+#J_promotional-top {
+    height: 80px;
+
+    a {
+        height          : 100%;
+        display         : block;
+        background-color: rgb(255, 247, 142);
+
+        .adv_container {
+            height    : 100%;
+            background: url('../jingdong-img/img_top/logo_top.jpg') no-repeat;
+            position  : relative;
+
+            i {
+                position        : absolute;
+                right           : 6px;
+                top             : 2px;
+                font-size       : 20px;
+                background-color: #999;
+                height          : 25px;
+                width           : 25px;
+                opacity         : 70%;
+                line-height     : 25px;
+                text-align      : center;
+            }
+        }
+    }
+}
+
+//2.顶部导航条
+#shortcut {
+    .shortcutinfo {
+        // background-color: aquamarine;
+        height: 30px;
+
+        //城市选择
+        .city-user {
+            height     : 30px;
+            line-height: 30px;
+            position   : relative;
+            float      : left;
+
+            .city-info {
+                position: relative;
+
+                z-index: 21;
+
+                a {
+                    position     : relative;
+                    overflow     : hidden;
+                    padding      : 0 10px;
+                    color        : #999;
+                    display      : block;
+                    z-index      : 99;
+                    border       : 1px solid transparent;
+                    border-bottom: none;
+
+                    i {
+                        margin-right: 4px;
+
+                        img {
+                            vertical-align: middle;
+                            width         : 14px;
+                            height        : 14px;
+                        }
+                    }
+
+                }
+
+                // 隐藏的城市
+                .hide-city {
+                    width              : 300px;
+                    // height          : 400px;
+                    background-color   : #fff;
+                    border             : 1px solid #ccc;
+                    box-shadow         : 1px 2px 1px rgba(0, 0, 0, .1);
+                    display            : none;
+                    top                : 30px;
+                    position           : absolute;
+                    z-index            : 98;
+                    overflow           : hidden;
+                    padding            : 20px;
+
+                    .item {
+                        float  : left;
+                        padding: 2px 0;
+                        width  : 60px;
+
+                        a {
+                            float: left;
+
+                            &:hover {
+                                background-color: #f4f4f4;
+                                color           : #e33333;
+
+                            }
+                        }
+
+
+                    }
+
+                    .areamini_inter1 {
+                        margin-bottom: 80px;
+                        display      : block;
+
+                        .ul_list {
+                            .areamini_inter_item {
+                                float: left;
+                                width: 120px;
+
+                                a {
+                                    display: block;
+
+                                    &:hover {
+                                        color: #e33333;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .areamini_inter2 {
+                        .w() {
+                            float       : left;
+                            position    : relative;
+                            top         : 7px;
+                            margin-right: 8px;
+                            width       : 15px;
+                            height      : 10px;
+                            border      : 1px solid transparent;
+                            background  : url('../jingdong-img/img_top/county.png') no-repeat;
+                        }
+
+                        //国家图标
+                        .areamini_inter_item {
+                            display : block;
+                            float   : left;
+                            width   : 150px;
+                            position: relative;
+
+                            &:hover {
+                                a {
+                                    color: #e33333;
+                                }
+                            }
+
+                            .global {
+                                .w;
+                            }
+
+                            .russia {
+                                .w;
+                                background-position: -20px 0;
+                            }
+
+                            .indonesia {
+                                .w;
+                                background-position: -40px 0;
+                            }
+
+                            .spain {
+                                .w;
+                                background-position: 0 -15px;
+                            }
+
+                            .thailand {
+                                .w;
+                                background-position: -20px -15px;
+                            }
+                        }
+                    }
+
+
+
+
+                }
+
+                &:hover {
+                    .dt {
+                        background-color: #fff;
+                        border          : 1px solid #ccc;
+                        border-bottom   : none;
+                    }
+
+                    .hide-city {
+                        display: block;
+                    }
+                }
+
+
+            }
+        }
+
+        .w() {
+            overflow: hidden;
+            padding : 10px 0 10px 15px;
+        }
+
+        //用户菜单
+        .lader-list {
+            float      : right;
+            line-height: 30px;
+
+            li {
+                float      : left;
+                // position: relative;
+
+                &.shortcut_btn a {
+                    color: #999;
+                }
+
+                &.fore1 {
+                    margin-right: 8px;
+                }
+
+                .dt {
+                    padding: 0 7px;
+                    color  : #999;
+
+                    i {
+                        // position   : absolute;
+                        right      : 5px;
+                        top        : 10px;
+                        width      : 12px;
+                        height     : 12px;
+                        line-height: 12px;
+                    }
+                }
+
+                & a.high_light {
+                    color: #e33333;
+                }
+
+                &:hover a {
+                    color: #e33333;
+                }
+
+
+            }
+
+            //dt显示样式
+            .b() {
+                position     : relative;
+                overflow     : hidden;
+                position     : relative;
+                border       : 1px solid transparent;
+                border-bottom: none;
+                z-index      : 999;
+            }
+
+            //dt hover样式
+            .d() {
+                border          : 1px solid #ccc;
+                border-bottom   : none;
+                background-color: #fff;
+            }
+
+            //隐藏模块总样式
+            .y() {
+                background-color: #ffff;
+                border          : 1px solid #ccc;
+                box-shadow      : 1px 2px 1px rgba(0, 0, 0, .1);
+                top             : 30px;
+                z-index         : 998;
+                position        : absolute;
+                display         : none;
+            }
+
+            //我的京东
+            li.fore3 {
+                position: relative;
+
+                .dt {
+                    .b;
+                }
+
+                //隐藏模块
+                & .myjdlist {
+                    padding: 20px 0 15px 20px;
+                    .y;
+
+                    a {
+                        color: #999;
+                    }
+
+                    .fore {
+                        line-height  : 28px;
+                        width        : 280px;
+                        padding-right: 2px;
+
+                        .w() {
+                            float   : left;
+                            overflow: hidden;
+
+                            .item {
+                                float: left;
+                                width: 138px;
+                            }
+                        }
+
+                        .fore1 {
+                            .w;
+                            margin-bottom : 10px;
+                            border-bottom : 1px solid #ccc;
+                            padding-bottom: 10px;
+                        }
+
+                        .fore2 {
+                            .w;
+                        }
+
+                        a:hover {
+                            color: #e33333;
+                        }
+
+                    }
+                }
+
+
+                &:hover {
+                    .dt {
+                        .d;
+                    }
+
+                    .myjdlist {
+                        display: block;
+                    }
+                }
+            }
+
+            //企业采购
+            li.fore5 {
+                position: relative;
+
+                .dt {
+                    .b;
+                }
+
+                //隐藏模块
+                .company {
+                    padding: 20px 0 15px 20px;
+                    .y;
+
+                    .company_container {
+                        line-height: 28px;
+                        width      : 140px;
+                        overflow   : hidden;
+
+                        a {
+                            color: #999;
+                        }
+
+                        .ul_list {
+                            overflow      : hidden;
+                            padding-bottom: 10px;
+
+                            li {
+                                float        : left;
+                                max-width    : 78px;
+                                overflow     : hidden;
+                                height       : 24px;
+                                min-width    : 38px;
+                                white-space  : nowrap;
+                                text-overflow: ellipsis;
+                                padding-right: 11px;
+                            }
+                        }
+
+                        a:hover {
+                            color: #e33333;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .dt {
+                        .d;
+                    }
+
+                    .company {
+                        display: block;
+                    }
+                }
+            }
+
+            //客户服务
+            li.fore6 {
+                position: relative;
+
+                .dt {
+                    .b;
+                }
+
+                .user_service {
+                    .y;
+                    padding: 20px 0 15px 20px;
+                    left   : -112px;
+
+                    .user_service_info {
+                        width   : 170px;
+                        overflow: hidden;
+
+                        .user_service_info_first {
+                            overflow   : hidden;
+                            line-height: 28px;
+
+                        }
+
+                        li {
+                            padding-left: 15px;
+                        }
+
+                        h2 {
+                            color       : #666;
+                            font-weight : 700;
+                            padding-left: 15px;
+                        }
+
+                    }
+
+                    a {
+                        color: #999;
+                    }
+
+                    a:hover {
+                        color: #e33333;
+                    }
+                }
+
+                &:hover {
+                    .dt {
+                        .d;
+                    }
+
+                    .user_service {
+                        display: block;
+                    }
+                }
+            }
+
+            //网站导航
+            li.fore7 {
+                position: relative;
+
+                .dt {
+                    .b;
+                }
+
+                .web-lead {
+                    width: 1190px;
+                    right: -75px;
+                    .y;
+                    padding: 15px 0;
+
+                    a {
+                        color: #999;
+                    }
+
+                    a:hover {
+                        color: #e33333;
+                    }
+
+                    h2 {
+                        font-weight: 700;
+                    }
+
+                    .f() {
+                        overflow    : hidden;
+                        float       : left;
+                        padding-left: 20px;
+                    }
+
+                    .fore1 {
+                        .f;
+                        width       : 340px;
+                        border-right: 1px solid #ccc;
+
+                        li {
+                            width: 85px;
+                            float: left;
+                        }
+                    }
+
+                    .fore2 {
+                        .f;
+                        width       : 255px;
+                        border-right: 1px solid #ccc;
+
+                        li {
+                            width: 85px;
+                            float: left;
+                        }
+                    }
+
+                    .fore3 {
+                        .f;
+                        width       : 255px;
+                        border-right: 1px solid #ccc;
+
+                        li {
+                            width: 85px;
+                            float: left;
+                        }
+                    }
+
+                    .fore4 {
+                        width: 255px;
+
+                        li {
+                            width: 85px;
+                            float: left;
+                        }
+
+                        .f;
+                    }
+                }
+
+                &:hover {
+                    .dt {
+                        .d;
+                    }
+
+                    .web-lead {
+                        display: block;
+                    }
+                }
+            }
+
+            //手机京东
+            li.fore8 {
+                position: relative;
+
+                .dt {
+                    .b;
+                }
+
+                .mob_static {
+                    position        : absolute;
+                    box-shadow      : 0 2px 8px rgba(0, 0, 0, .1);
+                    width           : 76px;
+                    height          : 76px;
+                    z-index         : 97;
+                    top             : 35px;
+                    background-color: #fff;
+
+                    .mobile_static_qrcode {
+                        width           : 66px;
+                        height          : 66px;
+                        background      : url('../jingdong-img/img_top/downloadCode.png') no-repeat 60%;
+                        margin          : 5px auto;
+                        line-height     : 30px;
+                        background-color: #f6f6f6;
+                    }
+
+                    &::before {
+                        content      : '';
+                        display      : block;
+                        position     : absolute;
+                        border       : 5px solid transparent;
+                        border-top   : none;
+                        top          : -5px;
+                        left         : 30.8px;
+                        border-bottom: 5px solid #FFF;
+                        width        : 0;
+
+                    }
+                }
+
+                //隐藏模块
+                .mob_hide {
+                    width  : 190px;
+                    padding: 15px 0;
+                    .y;
+                    right: -12px;
+
+                    &::before {
+                        content      : '';
+                        display      : block;
+                        width        : 0;
+                        position     : absolute;
+                        border       : 10px solid transparent;
+                        border-top   : none;
+                        border-bottom: 10px solid #fff;
+                        top          : -10px;
+                        right        : 33px;
+                        z-index      : 99;
+                    }
+
+                    .item {
+                        overflow     : hidden;
+                        position     : relative;
+                        z-index      : 5;
+                        padding      : 15px 0;
+                        border-bottom: 1px solid #e7e7e7;
+
+                        .item_img {
+                            width   : 74px;
+                            height  : 74px;
+                            float   : left;
+                            overflow: hidden;
+
+                            img {
+
+                                width : 80%;
+                                height: 80%;
+                                margin: 8px 8px;
+
+                            }
+                        }
+
+                        .item_text {
+                            overflow   : hidden;
+                            float      : left;
+                            line-height: 19px;
+                            margin-left: 5px;
+                            margin-top : 10px;
+
+
+                            h5 {
+                                font-size  : 12px;
+                                color      : #666;
+                                font-weight: 700;
+
+                                a {
+                                    color: #666;
+                                }
+                            }
+
+                            .p_text {
+                                color: #e33333;
+                            }
+
+                            .img_download {
+                                width   : 94px;
+                                height  : 25px;
+                                overflow: hidden;
+
+                                a {
+                                    display         : block;
+                                    float           : left;
+                                    margin-right    : 2px;
+                                    width           : 25px;
+                                    height          : 100%;
+                                    text-indent     : -999px;
+                                    background-image: url('../jingdong-img/img_top/sprite_mobile@1x.png');
+                                }
+
+                                .img_2 {
+                                    background-position: 0 -25px;
+                                }
+
+                                .img_3 {
+                                    background-position: 0 -50px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                &:hover {
+                    .mob_hide {
+                        display: block;
+                    }
+
+                }
+
+            }
+
+            .spacer {
+                overflow        : hidden;
+                margin          : 11px 5px 0;
+                width           : 1px;
+                height          : 10px;
+                background-color: #ccc;
+            }
+        }
+    }
+}
+
+//3.head logo和搜索框
+#logo_search {
+    background-color: #fff;
+
+    #logo_search_container {
+        // background-color: wheat;
+        position: relative;
+        height  : 140px;
+
+        //logo模块
+        .logo_container {
+            height             : 120px;
+            width              : 190px;
+            position           : absolute;
+            // background-color: yellow;
+            top                : 10px;
+            z-index            : 2;
+
+            .logo {
+                margin: 0 auto;
+                width : 134px;
+                height: 100%;
+
+                a {
+                    width              : 100%;
+                    height             : 100%;
+                    display            : block;
+                    background         : url("../jingdong-img/img_top/sprite.png");
+                    background-position: -20px 0;
+
+                    &:hover {
+                        background         : url("../jingdong-img/img_top/logo.gif");
+                        background-position: -28px -22px;
+                    }
+                }
+
+            }
+
+        }
+
+        //搜索框模块
+        .search_container {
+            height  : 60px;
+            position: relative;
+
+            .search {
+                // background-color: #FFF;
+                width   : 546px;
+                position: absolute;
+                left    : 260px;
+                top     : 25px;
+
+                .search-input {
+                    float        : left;
+                    width        : 450px;
+                    height       : 30px;
+                    line-height  : 26px;
+                    border       : 2px solid #e33333;
+                    outline      : none;
+                    padding-left : 10px;
+                    padding-right: 20px;
+                }
+
+                span {
+                    position : absolute;
+                    z-index  : 20;
+                    top      : 10px;
+                    right    : 80px;
+                    font-size: 16px;
+                }
+
+                .btn {
+                    width           : 62px;
+                    height          : 36px;
+                    float           : left;
+                    background-color: #e33333;
+                    position        : relative;
+
+                    .search-btn {
+                        line-height     : 26px;
+                        border          : none;
+                        color           : #fff;
+                        font-size       : 20px;
+                        background-color: #e33333;
+                        position        : absolute;
+                        margin          : auto;
+                        left            : 0;
+                        top             : 0;
+                        right           : 0;
+                        bottom          : 0;
+                    }
+                }
+
+            }
+
+            //购物车
+            .Buy_card {
+                border  : 1px solid #999;
+                position: absolute;
+                right   : 234px;
+                top     : 25px;
+
+                .car_container {
+                    width           : 130px;
+                    height          : 34px;
+                    text-align      : center;
+                    line-height     : 34px;
+                    background-color: #fff;
+
+                    .car {
+                        font-size    : 16px;
+                        color        : #e33333;
+                        padding-right: 10px;
+                    }
+
+                    a {
+                        color      : #e33333;
+                        font-weight: 700;
+                    }
+
+                    .hide_car {
+                        position        : absolute;
+                        width           : 308px;
+                        height          : 70px;
+                        border          : 1px solid #e33333;
+                        right           : -1px;
+                        z-index         : 98;
+                        display         : none;
+                        background-color: #fff;
+                        background-size : contain;
+
+                        img {
+                            position: absolute;
+                            top     : 20px;
+                            right   : 140px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-color: #e33333;
+
+                    .hide_car {
+                        display: block;
+                    }
+                }
+            }
+
+            //中间小导航
+            .center_lead {
+                width           : 546px;
+                height          : 20px;
+                position        : absolute;
+                background-color: #fff;
+                top             : 60px;
+                left            : 260px;
+
+                .lead_list {
+                    li {
+                        margin-right: 10px;
+                        float       : left;
+
+                        a {
+                            color: #999;
+                        }
+
+                        &:hover {
+                            a {
+                                color: #e33333;
+                            }
+                        }
+                    }
+
+                    & li:first-child {
+                        a {
+                            color: #e33333;
+                        }
+                    }
+                }
+            }
+
+            //底部小导航
+            .bottom_lead {
+                position        : absolute;
+                padding-top     : 20px;
+                top             : 80px;
+                left            : 200px;
+                height          : 40px;
+                overflow        : hidden;
+                background-color: #fff;
+
+                .lead_list {
+                    list-style: none;
+
+                    li {
+                        float      : left;
+                        margin     : 0 11px;
+                        height     : 40px;
+                        line-height: 40px;
+                        font-size  : 15px;
+
+                        a {
+                            color: #000;
+                        }
+
+                        &:hover {
+                            a {
+                                color: #c81623;
+                            }
+                        }
+                    }
+
+                    & li:nth-child(1) {
+                        font-weight: 700;
+
+                        a {
+                            color: #e33333;
+                        }
+                    }
+
+                    & li:nth-child(2) {
+                        font-weight: 700;
+
+                        a {
+                            color: #e33333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//4.中间菜单区域
+#center-menu-container {
+    position: relative;
+
+    .center-menu {
+        height             : 480px;
+        position           : relative;
+        overflow           : hidden;
+        // background-color: #e7e7e7;
+
+        // 左侧菜单 
+        .left-menu {
+            height      : 480px;
+            width       : 190px;
+            position    : absolute;
+            margin-right: 10px;
+
+            .left-menu-info {
+                padding         : 10px 0;
+                height          : 450px;
+                margin-top      : 10px;
+                overflow        : hidden;
+                background-color: #fff;
+
+                .left-list {
+                    list-style: none;
+
+                    li {
+                        padding-left: 18px;
+                        height      : 25px;
+                        line-height : 25px;
+                        overflow    : hidden;
+
+                        a {
+                            font-size: 14px;
+                            color    : #000;
+
+                            &:hover {
+                                color: #c81623;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //中间区域
+        .menu-cent {
+            height      : 100%;
+            overflow    : hidden;
+            position    : absolute;
+            left        : 200px;
+            width       : 790px;
+            margin-right: 10px;
+
+            .menu-cent-info {
+                padding-top: 10px;
+                height     : 100%;
+
+                .img-list-info {
+                    background-color: #fff;
+                    width           : 590px;
+                    height          : 100%;
+                    margin-right    : 10px;
+                    position        : absolute;
+                    overflow        : hidden;
+
+                    // 上下翻页按钮
+                    .np() {
+                        height       : 46px;
+                        width        : 46px;
+                        position     : absolute;
+                        margin       : auto 0;
+                        top          : 0;
+                        bottom       : 0;
+                        text-align   : center;
+                        line-height  : 46px;
+                        font-size    : 20px;
+                        display      : none;
+                        border-radius: 50%;
+                    }
+
+                    .bc() {
+                        background-color: #999;
+                        opacity         : 70%;
+                        transition      : 0.2s all linear;
+                    }
+
+                    .prve {
+                        .np;
+                        .bc;
+                        left: -23px;
+
+                        a {
+                            display : block;
+                            color   : #333;
+                            position: relative;
+                            left    : 4px;
+
+                        }
+
+                        &:hover {
+                            background-color: #333;
+                            opacity         : 70%;
+
+                            a {
+                                color: #000;
+                            }
+                        }
+                    }
+
+                    .next {
+                        .np;
+                        .bc;
+                        right: -23px;
+
+                        a {
+                            position: relative;
+                            left    : -4px;
+                            display : block;
+                            color   : #333;
+                        }
+
+                        &:hover {
+                            background-color: #333;
+                            opacity         : 70%;
+
+                            a {
+                                color: #000;
+                            }
+                        }
+                    }
+
+                    &:hover {
+
+                        .prve,
+                        .next {
+                            display: block;
+                        }
+                    }
+
+                    //图片容器
+                    .img-list-container {
+                        height: 100%;
+
+                        img {
+                            width : 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    //全图翻页导航
+                    .lead-list {
+                        position: absolute;
+                        height  : 15px;
+                        z-index : 2;
+                        bottom  : 40px;
+                        left    : 230px;
+
+                        a {
+                            float           : left;
+                            width           : 10px;
+                            height          : 10px;
+                            background-color: rgba(0, 0, 0, .4);
+                            border          : 2px solid rgba(255, 255, 255, .4);
+                            border-radius   : 50%;
+                            margin-right    : 6px;
+                            box-sizing      : content-box;
+
+
+
+                            &:hover {
+                                background-color: rgba(255, 255, 255, .4);
+                                border          : 2px solid rgba(0, 0, 0, .4);
+                            }
+
+                            &.active {
+                                background-color: rgba(255, 255, 255, .4);
+                                border          : 2px solid rgba(0, 0, 0, .4);
+                            }
+                        }
+                    }
+                }
+
+                .img-list-right {
+                    width           : 190px;
+                    height          : 100%;
+                    background-color: #fff;
+                    position        : absolute;
+                    left            : 600px;
+
+                    .img-list {
+                        width        : 190px;
+                        height       : 150px;
+                        margin-bottom: 10px;
+
+                        img {
+                            height: 100%;
+                            width : 100%;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        // 右侧区域
+        .right-menu {
+            width   : 190px;
+            height  : 480px;
+            overflow: hidden;
+            float   : right;
+
+            .right-menu-info {
+                padding         : 10px 0;
+                margin-top      : 10px;
+                height          : 100%;
+                background-color: #fff;
+
+                //顶部
+                .right-menu-top {
+                    position     : relative;
+                    top          : 5px;
+                    overflow     : hidden;
+                    border-bottom: 1px #ccc solid;
+                    width        : 190px;
+                    height       : 102px;
+
+                    .user {
+
+                        .user-img {
+                            width   : 40px;
+                            height  : 40px;
+                            position: absolute;
+                            left    : 15px;
+
+                            a {
+                                display: block;
+                                width  : 40px;
+                                height : 40px;
+
+                                img {
+                                    width        : 100%;
+                                    height       : 100%;
+                                    border-radius: 50%;
+                                }
+
+                            }
+                        }
+
+                        .user-show {
+                            position   : absolute;
+                            left       : 70px;
+                            top        : 4px;
+                            line-height: 17px;
+
+                            a {
+                                color: #000;
+
+                                &:hover {
+                                    color: #c81623;
+                                }
+                            }
+                        }
+
+                        .user_profit {
+                            position: absolute;
+
+                            top  : 62px;
+                            left : 15px;
+                            width: 170px;
+
+                            .new_gift {
+                                float           : left;
+                                background-color: #e33333;
+                                border-radius   : 13px;
+                                margin          : 0 5px;
+                                width           : 70px;
+                                height          : 25px;
+                                line-height     : 25px;
+                                text-align      : center;
+                                transition      : .6s all;
+
+
+                                a {
+
+                                    color: #fff;
+                                }
+
+                                &:hover {
+                                    background-color: #c81623;
+                                }
+                            }
+
+                            .plus {
+                                float           : left;
+                                background-color: #363634;
+                                border-radius   : 13px;
+                                width           : 70px;
+                                height          : 25px;
+                                line-height     : 25px;
+                                text-align      : center;
+                                transition      : color, background-color, .6s;
+
+                                a {
+                                    color: #e5d790;
+                                }
+
+                                &:hover {
+                                    background-color: #c81623;
+
+                                    a {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                //中间
+                .h() {
+                    width : 190px;
+                    height: 129px;
+                }
+
+                .right-menu-middle {
+                    position: relative;
+                    overflow: hidden;
+                    .h;
+                    border-bottom: 1px solid #ccc;
+
+                    .right-menu-middle-info {
+                        .head-title {
+                            height       : 20px;
+                            line-height  : 20px;
+                            width        : 100%;
+                            padding-top  : 10px;
+                            margin-bottom: 8px;
+                            position     : relative;
+
+                            h5 {
+                                position   : absolute;
+                                margin-left: 15px;
+                                color      : #333;
+                                font-size  : 14px;
+                                font-weight: 700;
+                            }
+
+                            a {
+                                position: absolute;
+                                right   : 15px;
+                                color   : #999;
+
+                                &:hover {
+                                    color: #e33333;
+                                }
+                            }
+                        }
+
+                        .info-list {
+                            position: relative;
+                            overflow: hidden;
+                            height  : 88px;
+
+                            li {
+                                width        : 160px;
+                                height       : 16px;
+                                overflow     : hidden;
+                                margin-left  : 15px;
+                                margin-bottom: 6px;
+
+                                .span() {
+                                    display         : inline-block;
+                                    position        : relative;
+                                    font-size       : 12px;
+                                    height          : 16px;
+                                    width           : 35px;
+                                    line-height     : 16px;
+                                    text-align      : center;
+                                    vertical-align  : 0;
+                                    color           : #e1251b;
+                                    background-color: rgba(225, 37, 27, .08);
+                                    margin-right    : 6px;
+                                }
+
+                                a {
+                                    display      : block;
+                                    text-overflow: ellipsis;
+                                    height       : 16px;
+                                    color        : #666;
+
+                                    &:hover {
+                                        color: #c81623;
+                                    }
+
+                                    span {
+                                        .span;
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+                //底部
+                .right-menu-bottom {
+                    width : 190px;
+                    height: 240px;
+
+                    .right-menu-bottom-info {
+                        height          : 200px;
+                        background-color: #fff;
+                        padding         : 5px 0;
+                        border-bottom   : 1px solid #ccc;
+                        position        : relative;
+                        margin-top      : 5px;
+
+                        .sign-list {
+                            list-style: none;
+
+                            li {
+                                position        : relative;
+                                float           : left;
+                                width           : 63px;
+                                height          : 55px;
+                                background-color: #fff;
+                                overflow        : hidden;
+                                text-align      : center;
+
+                                a {
+                                    display   : block;
+                                    position  : relative;
+                                    text-align: center;
+                                    color     : #000;
+                                    transition: 0.2s all linear;
+
+                                    i {
+                                        width   : 28px;
+                                        height  : 28px;
+                                        overflow: hidden;
+                                        display : block;
+                                        margin  : 0 auto;
+
+                                        img {
+                                            width : 100%;
+                                            height: 100%;
+                                        }
+                                    }
+
+                                    span {
+                                        width : 14px;
+                                        height: 14px;
+                                        top   : 0;
+                                    }
+
+                                    &:hover {
+                                        color: #c81623;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
