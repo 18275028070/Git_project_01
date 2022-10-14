@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商优选PC端项目详情</title>
+    <link rel="icon" href="./atguigu.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 最外层的包裹元素 -->
+    <div id="wrapper">
+        <!-- 头部 -->
+        <header id="header">
+            <!-- 上半部分 -->
+            <div class="headTop">
+                <!-- 版心元素 -->
+                <div class="headTopMain">
+                    <!-- 左侧 -->
+                    <div class="left">
+                        <h5>欢迎来到商优选！请</h5>
+                        <p>
+                            <a href="javascript:;">登录</a>
+                            <a href="javascript:;">注册</a>
+                        </p>
+                    </div>
+                    <!-- 右侧 -->
+                    <div class="right">
+                        <nav>
+                            <a href="javascript:;">我的订单</a>
+                            <a href="javascript:;">我的购物车</a>
+                            <a href="javascript:;">我的商优选</a>
+                            <a href="javascript:;">商优选会员</a>
+                            <a href="javascript:;">企业采购</a>
+                            <a href="javascript:;">关注商优选</a>
+                            <a href="javascript:;">合作招商</a>
+                            <a href="javascript:;">商家后台</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- 下半部分 -->
+            <div class="headFoot">
+                <!-- 版心元素 -->
+                <div class="headFootMain">
+                    <!-- logo -->
+                    <h1 class="logo">
+                        <a href="javascript:;">
+                            <img src="./images/logo.png" alt="精美优品,等你采购">
+                        </a>
+                    </h1>
+                    <!-- 搜索框 -->
+                    <div class="search">
+                        <input type="text" placeholder="请输入搜索内容">
+                        <input type="submit" value="搜索">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 分类导航 -->
+        <div id="navWrap">
+            <!-- 版心元素 -->
+            <div class="navWrapMain">
+                <a href="javascript:;">全部商品分类</a>
+                <a href="javascript:;">服装城</a>
+                <a href="javascript:;">美妆馆</a>
+                <a href="javascript:;">尚优选超市</a>
+                <a href="javascript:;">全球购</a>
+                <a href="javascript:;">闪购</a>
+                <a href="javascript:;">团购</a>
+                <a href="javascript:;">有趣</a>
+                <a href="javascript:;">秒杀</a>
+            </div>
+        </div>
+
+        <!-- 内容区域 -->
+        <div id="content">
+            <!-- 版心元素 -->
+            <div class="contentMain">
+                <!-- 路径导航 -->
+                <div id="navPath"></div>
+
+                <!-- 中间区域 -->
+                <div id="center">
+                    <!-- 左侧放大镜 -->
+                    <div id="left">
+                        <!-- 上边 -->
+                        <div id="leftTop">
+                            <!-- 小图框 -->
+                            <div id="smallPic">
+                                <!-- 小图片 -->
+                                <img src="./images/s1.png" alt="">
+                                <!-- 蒙版元素 -->
+                            </div>
+                            <!-- 大图框 -->
+                        </div>
+                        <!-- 下边 -->
+
+                        <div id="leftBottom">
+                            <a href="javascript:;" class="preve"> < </a>
+                            <div id="picList">
+                                <ul>
+                                    <!-- js动态添加 -->
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="next"> > </a>
+                        </div>
+                    </div>
+                    <!-- 右侧商品区域 -->
+                    <div id="right">
+                        <!-- 商品详情数据结构 -->
+                        <div class="rightTop">
+                            <!-- js填充 -->
+                        </div>
+
+
+                        <!-- 商品参数数据结构 -->
+                        <div class="rightBottom">
+                            <!-- 选择之后结果的区域 -->
+                            <div class="chooseResult">
+                                <!-- js填充 -->
+                            </div>
+
+                            <!-- 商品参数的选择区域 -->
+                            <div class="chooseWrap">
+                                <!-- js添加 -->
+                            </div>
+
+                            <!-- 加入购物车以及数量区域结束 -->
+                            <div class="addCart">
+                                <div class="count">
+                                    <input type="text">
+                                    <a href="javascript:;">+</a>
+                                    <a href="javascript:;">-</a>
+                                </div>
+                                <button>加入购物车</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 商品详情中间部分 -->
+                <div class="goodsDetailWrap">
+                    <!-- 左边侧边栏 -->
+                    <aside class="leftAside">
+                        <!-- 上边 -->
+                        <div class="asideTop">
+                            <h4 class="active">相关分类</h4>
+                            <h4>推荐品牌</h4>
+                        </div>
+
+                        <!-- 下边 -->
+                        <div class="asideContent">
+                            <div class="active">
+                                <ul class="goodsList1">
+                                    <li><a href="javascript:;">手机</a></li>
+                                    <li><a href="javascript:;">手机壳</a></li>
+                                    <li><a href="javascript:;">内存卡</a></li>
+                                    <li><a href="javascript:;">iPhone配件</a></li>
+                                    <li><a href="javascript:;">贴膜</a></li>
+                                    <li><a href="javascript:;">手机耳机</a></li>
+                                    <li><a href="javascript:;">移动电源</a></li>
+                                    <li><a href="javascript:;">平板电脑</a></li>
+                                </ul>
+                                <ul class="goodsList2">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/part01.png" alt="">
+                                            <span>Apple苹果iPhone 6s (A1699)</span>
+                                        </a>
+                                        <p>￥6088.00</p>
+                                        <div class="button">
+                                            <a href="javascript:;">加入购物车</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/part01.png" alt="">
+                                            <span>Apple苹果iPhone 6s (A1699)</span>
+                                        </a>
+                                        <p>￥6088.00</p>
+                                        <div class="button">
+                                            <a href="javascript:;">加入购物车</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/part01.png" alt="">
+                                            <span>Apple苹果iPhone 6s (A1699)</span>
+                                        </a>
+                                        <p>￥6088.00</p>
+                                        <div class="button">
+                                            <a href="javascript:;">加入购物车</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/part01.png" alt="">
+                                            <span>Apple苹果iPhone 6s (A1699)</span>
+                                        </a>
+                                        <p>￥6088.00</p>
+                                        <div class="button">
+                                            <a href="javascript:;">加入购物车</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>推荐品牌内容</div>
+                        </div>
+                    </aside>
+
+                    <!-- 右边的结构 -->
+                    <div class="rightDetail">
+                        <!-- 选择搭配-->
+                        <div class="chooseBox">
+                            <!-- 标题 -->
+                            <h4>选择搭配</h4>
+                            <!-- 内容 -->
+                            <div class="listWrap">
+                                <!-- 左边 -->
+                                <div class="left">
+                                    <a href="javascript:;">
+                                        <img src="./images/l-m01.png" alt="">
+                                    </a>
+                                    <p>￥5299</p>
+                                    <i>+</i>
+                                </div>
+
+                                <!-- 中间 -->
+                                <ul class="middle">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/dp01.png" alt="">
+                                            <span>Feless费勒斯VR</span>
+                                        </a>
+                                        <div>
+                                            <input type="checkbox" value="50">
+                                            <span>50</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/dp02.png" alt="">
+                                            <span>Feless费勒斯VR</span>
+                                        </a>
+                                        <div>
+                                            <input type="checkbox" value="50">
+                                            <span>50</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/dp03.png" alt="">
+                                            <span>Feless费勒斯VR</span>
+                                        </a>
+                                        <div>
+                                            <input type="checkbox" value="50">
+                                            <span>50</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/dp04.png" alt="">
+                                            <span>Feless费勒斯VR</span>
+                                        </a>
+                                        <div>
+                                            <input type="checkbox" value="50">
+                                            <span>50</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <!-- 右侧 -->
+                                <div class="right">
+                                    <p>已购0件商品</p>
+                                    <span>套餐价</span>
+                                    <i>￥5299</i>
+                                    <div>
+                                        <button>加入购物车</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 选项卡 -->
+                        <div class="BottomDetail">
+                            <!-- 菜单 -->
+                            <ul class="TabBtns">
+                                <li class="active"><a href="javascript:;">商品介绍</a></li>
+                                <li><a href="javascript:;">规格包装</a></li>
+                                <li><a href="javascript:;">售后与保障</a></li>
+                                <li><a href="javascript:;">商品评价</a></li>
+                                <li><a href="javascript:;">手机社区</a></li>
+                            </ul>
+                            <!-- 内容 -->
+                            <div class="TabContents">
+                                <div class="active">
+                                    <ul>
+                                        <li>分辨率：1920*1080(FHD)</li>
+                                        <li>后置摄像头：1200万像素</li>
+                                        <li>前置摄像头：500万像素</li>
+                                        <li>核 数：其他</li>
+                                        <li>频 率：以官网信息为准</li>
+                                        <li>品牌： Apple</li>
+                                        <li>商品名称：APPLEiPhone 6s Plus</li>
+                                        <li>商品编号：1861098</li>
+                                        <li>商品产地：中国大陆</li>
+                                        <li>商品毛重：0.51kg</li>
+                                        <li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+                                        <li>系统：苹果（IOS）</li>
+                                        <li>像素：1000-1600万品毛重：0.51kg</li>
+                                        <li>机身内存：64GB</li>
+                                    </ul>
+                                    <img src="images/intro01.png" alt="">
+                                    <img src="images/intro02.png" alt="">
+                                    <img src="images/intro03.png" alt="">
+                                </div>
+                                <div>规格包装</div>
+                                <div>售后与保障</div>
+                                <div>商品评价</div>
+                                <div>手机社区</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!-- 右侧侧边栏 -->
+        <div class="rightAside asideClose">
+            <!-- 按钮区域 -->
+            <div class="btns btnsClose"></div>
+
+            <!-- 侧边栏内容区域 -->
+            <div class="content"></div>
+
+            <!-- 侧边导航 -->
+            <ul class="navlist">
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+                <li>
+                    <!-- 小图标 -->
+                    <p></p>
+                    <i>尚选会员</i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
